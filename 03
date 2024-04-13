@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main(){
+    int v[5];
+    int s = 0;
+        printf("Informe cinco valores inteiros.\n");
+    for (int i = 0; i < 5; i++){
+        printf("Valor %d:\n", i + 1);
+        scanf("%d", &v[i]);
+        }
+    for (int i = 0; i < 5; i++){
+            s += v[i];
+        }
+        printf("A soma dos numeros e: %d\n", s);
+    return 0;
+}
